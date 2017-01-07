@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width initial-scale=1.0" />
     <title>2017新春贺卡</title>
     <link href="css/style.css" rel="stylesheet">
+    <script src="js/script.js"></script>
 </head>
 <body>
-<div id="music">
+<div class="music">
     <img src="images/music_pointer.png">
-    <img src="images/music_disc.png">
+    <img id="music" class="play" src="images/music_disc.png">
 </div>
 <div class="page" id="page1">
     <div class="bg"></div>
@@ -32,5 +33,8 @@
     <div class="p3_first"></div>
     <div class="p3_blessing"></div>
 </div>
+<audio autoplay="true">
+    <source src="audio/Happy_New_Year.mp3">
+</audio>
 </body>
 </html>
